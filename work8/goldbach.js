@@ -1,8 +1,8 @@
 // 判断一个数是否是质数
-function hzy(num){                                                         
+function hzy(number){                                                         
     var sum = 0;                                                                  
-    for(var d=1;d<=num;d++){                                                                                                      
-        if (num % d==0){
+    for(var a=1;a<=number;a++){                                                                                                      
+        if (number % a==0){
             sum++;
         }
     }
@@ -25,6 +25,8 @@ for(var b=2;b<double;b++){
 }
 document.getElementById("goldbach").innerHTML = str;
 }
+
+//By 天高任源飞1906
 
 
     
