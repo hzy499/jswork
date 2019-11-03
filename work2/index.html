@@ -3,13 +3,18 @@
         <meta charset="utf-8">
         <title>何智源的简单网页应用</title>
         <script>
+
+        //定义一个提示框并获取用户输入的值赋值给password
         var password=prompt('请输入密码')
+
+        //判断password是否等于123456
         if (password=='123456'){
             alert('密码输入正确')
         }else{
             alert('密码输入错误')
         }
 
+        //定义一个函数处理背景颜色（str作为形式参数）
         function color(str){
             document.body.style.backgroundColor=str;
         }
