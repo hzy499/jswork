@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>进度条上传</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <form id="form">
+        <input type="file" name="file">
+        <input type="button" value="上传" id="upload">
+    </form>
+    <p>
+        上传进度: <span class="progress"><i id="bar"></i></span>
+        <span id="per">0%</span>
+    </p>
+    <p id="download"></p>
+</body>
+<script src="./index.js"></script>
+</html>
